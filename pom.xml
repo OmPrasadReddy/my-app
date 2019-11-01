@@ -30,16 +30,15 @@
 	
 	</dependencies>
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>repoS</id>
-		    <url>http://localhost:8081/nexus/content/repositories/repoS/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>repoR</id>
-		    <url>http://localhost:8081/nexus/content/repositories/repoR/</url>
-		</repository>
-  	</distributionManagement>
+    <repository>
+      <id>repoR</id>
+      <url>http://localhost:8081/nexus/content/repositories/repoR/</url>
+    </repository>
+    <snapshotRepository>
+      <id>repoS</id>
+      <url>http://localhost:8081/nexus/content/repositories/repoS/</url>
+    </snapshotRepository>
+  </distributionManagement>
 	
 <build>
     <plugins>
