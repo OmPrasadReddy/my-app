@@ -31,13 +31,13 @@
 	</dependencies>
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>repoR</id>
-		    <url>http://localhost:8081/nexus/content/repositories/repoR/</url>
+		    <id>repoS</id>
+		    <url>http://localhost:8081/nexus/content/repositories/repoS/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>repoS</id>
-		    <url>http://localhost:8081/nexus/content/repositories/repoS/</url>
+		    <id>repoR</id>
+		    <url>http://localhost:8081/nexus/content/repositories/repoR/</url>
 		</repository>
   	</distributionManagement>
 	
